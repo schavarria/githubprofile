@@ -1,0 +1,13 @@
+.name{
+    color:rgb(0, 92, 208);
+    font-size: 22px;
+    font-weight:bold;
+}
+
+.language{
+    font-size: 18px;
+}
+.infoCon{
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid rgb(221,221,221);
+}
