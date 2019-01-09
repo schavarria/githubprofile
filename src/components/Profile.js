@@ -32,8 +32,8 @@ class Profile extends Component {
                    </div>
                    <div className="buttonCon">
                        <input type="text" placeholder="Find a Repo...."/>
-                       <button>Type All <i class="arrow fa fa-sort-down"></i></button> 
-                       <button>Language: All <i class="arrow fa fa-sort-down"></i></button> 
+                       <button>Type All <i className="arrow fa fa-sort-down"></i></button> 
+                       <button>Language: All <i className="arrow fa fa-sort-down"></i></button> 
                        <button>New</button>
                    </div>
                    <Repo />

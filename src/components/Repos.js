@@ -15,7 +15,7 @@ class Repo extends Component {
                     <a key={item.id} href={item.html_url}>
                         <div className="infoCon"> 
                         <p className="name">{item.name}</p>
-                        <p className="language"> <i class="fa fa-circle"></i> {item.language}</p>
+                        <p className="language"> <i className="fa fa-circle"></i> {item.language}</p>
                         </div> 
                      </a>
                 ))}
