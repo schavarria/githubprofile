@@ -4,10 +4,18 @@
     font-weight:bold;
 }
 
+.name:hover{
+    text-decoration: underline ;
+}
+
 .language{
     font-size: 18px;
 }
 .infoCon{
     padding: 15px 0 15px 0;
     border-bottom: 1px solid rgb(221,221,221);
+}
+.fa {
+    color: orangered;
+    font-size: 10px;
 }

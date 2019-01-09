@@ -1,16 +1,15 @@
 .mainCon{
     margin:auto;
     width:1200px;
-    border: 1px solid blue;
     display: flex;
 }
 
 .leftProfile{
     width:325px;
-    border: 1px solid black;
    padding-left:13px;
 }
 img{
+    border-radius: 10px;
     margin: 10px 13px 0 0;
     width: 300px;
 }
@@ -43,8 +42,11 @@ input{
     border-bottom: 1px solid rgb(221,221,221);
 }
 button{
+    text-align: center;
     margin-right: 5px;
-    height: 25px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
 }
 
 .dummyCon{
@@ -54,7 +56,30 @@ button{
 }
 
 span{
+    padding-bottom: 16px;
     font-size: 20px;
-    margin-right:13px;
+    margin-right: 13px;
 }
 
+span:hover{
+    border-bottom: 1px solid grey;  
+}
+
+.follow{
+    margin-left:110px;
+}
+
+.follow:hover{
+    outline: 1px solid black;
+    background-color: rgb(150,150,150);
+}
+
+.repoSpan{
+    border-bottom: 1px solid orangered;
+}
+
+.arrow {
+    color: black;
+    position: relative;
+    top: -2px;
+}

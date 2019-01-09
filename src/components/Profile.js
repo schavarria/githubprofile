@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import Repo from './Repos'
 import '../styles/profile.css'
 
+
 class Profile extends Component {
     componentDidMount (){
         getProfile()
@@ -18,20 +19,21 @@ class Profile extends Component {
                     <p>{this.props.profile.bio}</p>
                     <p>{this.props.profile.company}</p>
                     <p>{this.props.profile.location}</p>
+                    <button className="follow"> Follow</button>
                 </div>
 
                <div className="TopProfile">
                    <div className="dummyCon">
                        <span>Overview </span>
-                       <span>Repositories {this.props.profile.public_repos}</span>
+                       <span className="repoSpan">Repositories {this.props.profile.public_repos}</span>
                        <span>Stars {this.props.profile.public_gists}</span>
                        <span>Followers {this.props.profile.followers}</span>
                        <span>Following {this.props.profile.following}</span>
                    </div>
                    <div className="buttonCon">
                        <input type="text" placeholder="Find a Repo...."/>
-                       <button>Type All</button> 
-                       <button>Language: All</button> 
+                       <button>Type All <i class="arrow fa fa-sort-down"></i></button> 
+                       <button>Language: All <i class="arrow fa fa-sort-down"></i></button> 
                        <button>New</button>
                    </div>
                    <Repo />
